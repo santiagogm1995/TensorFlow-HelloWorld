@@ -1,0 +1,6 @@
+---
+applications:
+ - name: TF-Demo-Test
+   random-route: true
+   memory: 1024M
+   buildpack: https://github.com/cloudfoundry/python-buildpack.git#v1.6.20
